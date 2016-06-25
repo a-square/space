@@ -1,0 +1,10 @@
+Tags: #ml #list
+
+- LSTM
+  - https://en.wikipedia.org/wiki/LSTM
+  - http://colah.github.io/posts/2015-08-Understanding-LSTMs/ - great diagrams!
+  - http://karpathy.github.io/2015/05/21/rnn-effectiveness/ - python code
+
+- General
+  - https://deepmind.com/publications
+  - 

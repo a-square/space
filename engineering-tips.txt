@@ -1,0 +1,8 @@
+Tags: #coding #arch
+
+On technical debt:
+
+- understand what the code *actually* and *genuinely* needs to be able to do today and tomorrow
+- think of a way of delivering that with the available resources
+- think a little about what *might* be needed in the future, acknowledging that this is only a best guess
+- make sure that it is not impossible (or prohibitively expensive) to change things later

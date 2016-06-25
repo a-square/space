@@ -1,0 +1,7 @@
+Tags: #bash #cli
+
+- Loops are commands, you can pipe from/into them
+  - $ ls | while read line; do echo "Yo $line"; done
+  - read can handle columnized input, separator is defined by IFS
+- $ select var in a b c; do stuff; done
+  - loops through multiple choice question, PS3 defines the prompt

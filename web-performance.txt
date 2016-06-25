@@ -1,0 +1,7 @@
+Tags: #web #frontend #perf #list
+
+Profiling & inspection tools
+- http://yslow.org
+- https://developers.google.com/speed/pagespeed/
+- https://tools.pingdom.com
+- HTTP debuggers like Charles

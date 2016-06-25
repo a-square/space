@@ -1,0 +1,18 @@
+#!/bin/bash
+
+PREFIX='Tags: '
+
+set -e
+
+if [ "$1" == "-c" ]; then
+    function tally {
+        uniq -c | sort -nr
+    }
+else
+    function tally {
+        uniq
+    }
+fi
+
+cd $(dirname $0)
+grep -s -h -e "^$PREFIX" *.txt | sed "s/^$PREFIX//g" | xargs echo | rs -T | sort | tally

@@ -1,0 +1,41 @@
+Tags: #cli
+
+BSD & Linux tools:
+
+- pr
+  - format a file as a human-readable plain text
+  - $ pr -t -3
+    - columnize the file (3 columns), don't pad the page
+- paste
+  - concatenates lines of files
+  - $ ls | paste - - -
+    - columnize the output
+    - pr is better for human-readable applications
+- join
+  - performs relational join on two plaintext table files (wow!)
+- tr
+  - works with utf-8!
+  - $ tr '[:lower:]' '[:upper:]'
+- cut
+  - outputs selected columns of the input (delimited or bytes or mb-chars)
+  - $ ll | cut -c 1-40 | paste - -
+  - $ echo 1,2,3,4 | cut -d , -f 1,3
+- awk
+  - can have conditionals (e.g. on length)
+- nl
+  - prepends line numbers
+  - $ ls | nl | pr -t -2
+- jot
+  - generates sequences (useful for loops?)
+- expand, unexpand
+  - convert tabs to spaces and vice versa
+- rs
+  - WTF?
+- cmp
+  - bytewise file comparison
+  - useful in makefiles e.g. to avoid rebuilding stuff when generated header doesn't actually change
+
+3rd party tools:
+
+- https://leemendelowitz.github.io/blog/ubuntu-server-virtualbox.html - manage VMs
+- ag (silver_searcher)
