@@ -1,0 +1,4 @@
+Tags: #lang #go
+
+Object model:
+http://doc.cat-v.org/programming/go/papers/Paper__aigner_baumgartner.pdf

@@ -1,0 +1,12 @@
+Tags: #notes #app
+
+Principles:
+- Plain text: greppable, easy to view in any editor, including vim and friends
+  - .txt files are notes
+- Information not lost when syncronizing: have a merge tool
+- Ships with shell scripts for CLI usage
+- Have tags that are searchable
+  - Mobile app may have nice things like highlighting and touch-to-search
+- Mobile app to make things easy
+- Very simple syncronization: you should be able to write a working backend in a day
+- All files are plain text, binary files are not used even for indices

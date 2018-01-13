@@ -1,5 +1,6 @@
 Tags: #bash #cli
 
+- ^X^E to edit current command with $EDITOR
 - Loops are commands, you can pipe from/into them
   - $ ls | while read line; do echo "Yo $line"; done
   - read can handle columnized input, separator is defined by IFS
