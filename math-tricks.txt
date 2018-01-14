@@ -1,0 +1,15 @@
+Tags: #math
+
+- https://terrytao.wordpress.com/2007/09/05/amplification-arbitrage-and-the-tensor-power-trick/
+  - amplification trick
+    - LHS <= RHS
+    - LHS has a symmetry that RHS lacks (or vice versa)
+    - apply the symmetry with a parameter and optimize the parameter
+    - have a stronger inequality
+    - examples
+      - Cauchy-Schwarz (phase, then homogenisation)
+      - depolarisation of bilinear form inequalities (linear symmetry: f -> f + cg)
+      - translation invariance useful for negative results
+      - tensor power of a function
+        - can also delete logarithms (?)
+        - useful when working with Shannon entropy (!)

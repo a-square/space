@@ -1,0 +1,17 @@
+Tags: #math #ml #vision
+
+https://terrytao.wordpress.com/2007/04/13/compressed-sensing-and-single-pixel-cameras/
+- Basic idea
+  - Wavelets lead to good image compression with few coefficients
+  - We want to capture roughly the same amount of data samples and recover these coefficients
+    - K times more to fight noise, aliasing etc
+  - Sampling method
+    - Generate random "mask" images (realistic or noise?), samples are correlations w/ them
+  - Recovery methods
+    - Matching pursuit (greedy algorithm on wavelet basis functions)
+      - Faster algorithms
+    - Basis pursuit (L1 regularization + simplex method)
+      - More rubost wrt noise
+- Pure math connections
+  - Estimates on various Fourier stuff :)
+- Articles linked in the blog post

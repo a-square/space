@@ -1,0 +1,5 @@
+Tags: #fun #links
+
+https://xorshammer.com/2016/05/19/thermodynamics-is-easier-than-i-thought/
+Some interesting bounds on thermodynamic systems
+(e.g. Landauer’s principle, the energy bound on erasing a bit of information)

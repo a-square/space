@@ -1,0 +1,5 @@
+Tags: #invest
+
+- Dow index
+  - https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average#Calculation
+  - just 30 companies, easy to replicate
