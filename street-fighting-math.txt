@@ -1,0 +1,55 @@
+Street-Fighting Mathematician
+
+Other books:
+- How to Solve It
+- Mathematics and Plausible Reasoning
+- The Art and Craft of Problem Solving
+
+Focus of the book: imprecise calculations of imprecisely stated problems
+
+Dimensional analysis
+- What's wrong about comparing net worth of Exxon with GDP of Nigeria?
+  - GDP is turnover per year, net worth is the valuation of assets
+    - One is $, the other is $/year
+    - One is net, the other is gross
+  - Dimension: a kind of measurable quantity
+  - Unit: the amount of a dimension that we assign the number of 1 to
+  - Watch out for faulty comparisons
+- Application to free fall problem
+  - Constraint propagation to figure out the "rough" formula
+    - This amounts to finding the kernel of vectors in the dimension space (v.s. over \QQ)
+    - Notation (in this book):
+      - \propto - proportional up to dimensional factor
+      - \sim - proportional up to dimensionless factor
+      - \approx - proportional up to dimensionless factor close to 1
+    - Overlooking dimensionless factors can be advantageous
+    - Vertical throw problem
+      - Dimensional analysis
+        - g ~ L / T^2
+        - v_0 ~ L / T
+        - t ~ v_0 / g
+      - True story
+        - The answer is twice time till the ball stops
+        - v' = -g, v(0) = v_0
+        - v(t) = -g t + v_0, therefore v(t) = 0 iff t = v_0 / g
+        - The answer is 2 v_0 / g
+- Dimensional analysis in the abstract
+  - Make up a consistent set of dimensions for yourself
+    - This probably has to do with dilation symmetry
+  - Gaussian integral
+    - \int_{-\infty}^\infty e^{- \alpha x^2} dx = f(\alpha)
+    - suppose x is length (dimension L)
+    - the exponent is dimensionless so [\alpha] = [x]^{-2} = L^{-2}
+    - the integral has the same dimensions as the Riemann sum
+      - so it's L
+      - therefore [f(\alpha)] = L
+      - therefore f(\alpha) ~ \alpha^{-1/2}
+    - change of a variable approach
+      - integrand is symmetric w.r.t (x, \alpha) -> (t x, \alpha / t^2)
+      - the integral diverges when \alpha <= 0, so assume \alpha > 0.
+      - set \alpha = b^2
+      - then \int_{-\infty}^\infty e^{- (bx)^2} dx = 1/b \int_{-\infty}^\infty e^{y^2} dy \sim 1/b
+    - another problem
+      - \int_0^\infty e^{- a t^3} dt = f(a)
+      - [f(a)] = T, [a] = T^{-3}
+        - therefore, f(a) ~ t^{-1/3}
