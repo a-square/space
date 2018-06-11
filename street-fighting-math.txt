@@ -53,3 +53,8 @@ Dimensional analysis
       - \int_0^\infty e^{- a t^3} dt = f(a)
       - [f(a)] = T, [a] = T^{-3}
         - therefore, f(a) ~ t^{-1/3}
+
+Easy case analysis
+- When given several alternatives passing the dimensional checks, use easy cases to reject the bad ones
+- Use numerical methods to hone in on the coefficients
+  - Only works if you have a finite number of suspects, though, or if you can bound the difference between the numerical and the true value (probably should go to Terry Tao for tricks on that end)
