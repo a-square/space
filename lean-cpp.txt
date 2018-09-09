@@ -1,0 +1,29 @@
+- no exceptions, no RTTI
+- no non-trivial default constructors or destructors, except for RAII guards
+  - not allowed to store RAII guards anywhere
+  - two-phase initialization with init methods
+- virtual methods allowed
+  - but virtual destructors aren't  (safe?)
+- new/delete not allowed
+  - instead, use arena-based allocation strategies
+- references
+  - allowed as function arguments
+  - not allowed as members
+- std
+  - iostreams are out
+  - strings are out
+  - containers are out
+  - algorithms are in
+  - threads?
+  - random?
+  - time?
+- error paths in code
+  - Go-like, return pairs [value, error]
+  - RAII useful for clean-up, but we don't want any RAII objects on heap
+- lambdas allowed
+  - allow std::function?
+- inheritance
+  - limit implementation/state inheritance
+  - mostly use inheritance for abstract interfaces
+- shared state (including on-heap)
+  - dunno
