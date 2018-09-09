@@ -1,0 +1,6 @@
+Tags: #vim #tips #list
+
+- set (no)paste
+  - paste insert mode (no reindent)
+- http://nvie.com/posts/how-i-boosted-my-vim/
+- :help vimrc-intro
